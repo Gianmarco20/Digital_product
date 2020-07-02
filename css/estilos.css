@@ -1,0 +1,203 @@
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+nav{
+  display: flex;
+  background-color: #2F2E2E;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: grey;
+}
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../images/Trazado\ 2.png");
+  height: 120px;
+  background-size: cover;
+  background-position: center top;
+  padding: 80px;
+  display: flex;
+}
+
+.product{
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+.product .content{
+  background-color: #E2E2E2;
+  padding: 15px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.img_content{
+  text-align: center; 
+}
+
+.main_button{
+  background-color:  #2F2E2E;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color:  grey;
+} 
+
+.brand_image{
+  cursor: pointer;
+}
+
+.caracteristicas{
+  margin: 10px auto;
+  width: 60%;
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto{
+  display: flex;
+}
+
+.contenido{
+  background-color: white;
+  padding: 50px;
+}
+
+.line_divisory{
+  height: 1px;
+  background-color: #D8D8D8;
+}
+
+.menciones_sections{
+  padding: 1px;
+  text-align: center; 
+}
+
+.products_uno{
+  padding: 80px;
+  display: flex;
+}
+
+.product_uno{
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.product_uno .content_uno{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 2px 2px 5px #B0B0B0;
+}
+
+.gian_marco{ 
+  text-align: center;
+}
+
+.productos_section{
+  padding: 10px;
+  text-align: left;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "product description description";
+  grid-gap: 10px;
+  margin-bottom: 10%;
+}
+
+.container.img_container{
+  padding: 10px;
+  grid-area: product;
+}
+
+.container.description{
+  padding: 10px;
+  grid-area: description;
+}
+
+.container2.description{
+  padding: 10px;
+  grid-area: description;
+  text-align: left;
+}
+
+.container_venta{
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen_venta{
+  text-align: center;
+}
+
+.venta_section{
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #B0B0B0;
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+label{
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.data{
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+footer{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2F2E2E;
+  color: white;
+}
+
+.option_contact a{
+  color: white;
+}
